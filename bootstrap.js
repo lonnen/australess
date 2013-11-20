@@ -29,7 +29,7 @@ function australess(document) {
   back.style.paddingRight = '2px'
   back.style.border = 'none'
   back.style.boxShadow = 'none'
-  
+
   // make forward button match other toolbar buttons
   var fwd = document.querySelector('#forward-button, #forward-button:not(:-moz-lwtheme), #forward-button:-moz-lwtheme, #forward-button:-moz-window-inactive, #forward-button:-moz-window-inactive:not(:-moz-lwtheme)')
   fwd.style.borderTop = 'none'
@@ -42,10 +42,10 @@ function australess(document) {
   fwd.style.minWidth = '22px'
   fwd.style.borderRight = 'none'
   fwd.style.background = 'none'
-  
+
   // remove the keyhole
-  document.querySelector('#osx-keyhole-forward-clip-path').remove()
-  document.querySelector('#osx-urlbar-back-button-clip-path').remove()
+  //document.querySelector('#osx-keyhole-forward-clip-path').remove()
+  //document.querySelector('#osx-urlbar-back-button-clip-path').remove()
 
   // reduce titlebar height
   document.querySelector('#titlebar').height = '30px'
