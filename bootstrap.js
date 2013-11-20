@@ -1,4 +1,3 @@
-
 function australess(document) {
 
   // states to test:
@@ -49,8 +48,9 @@ function australess(document) {
   document.querySelector('#osx-urlbar-back-button-clip-path').remove()
 
   // reduce titlebar height
-  var tb = document.querySelector('#titlebar')
-  tb.height = '33px'
+  document.querySelector('#titlebar').height = '30px'
+  // adjust the pillbox
+  document.querySelector('#titlebar-buttonbox').style.marginTop = '-4px'
 }
 
 
